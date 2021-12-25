@@ -1,3 +1,5 @@
+#Load image
+
 import random
 import webbrowser
 import urllib.request
