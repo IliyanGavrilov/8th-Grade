@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Семейство Котки</title>
+	<style>
+		body{background-image: url("../Pictures/cats31.jpg");}
+		a:link, a:visited {
+		  background-color: DarkOrange;
+		  color: white;
+		  padding: 15px 25px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  margin-left:25px;
+		}
+
+		a:hover, a:active {
+		  background-color: red;
+		}
+
+		.box {
+		  border: 2px solid black;
+		  padding-top:0px;
+		  padding-right:0px;
+		  padding-bottom:20px;
+		  padding-left:0px;
+		  background-color: rgba(0, 0, 0, 0.9);
+		  margin-top:-10px;
+		  margin-right:5px;
+		  margin-left:5px;
+		  border-radius: 10px;
+		}
+		
+		h1, h3 {color: white;}
+		
+		.menu{display:none;}
+		
+		.show {display:block;}
+		
+		button {
+		  background-color: DarkOrange;
+		  color: white;
+		  padding: 15px 25px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  margin-left:25px;
+		}
+		
+		
+	</style>
+</head>
+	<body>
+
+		<div class="box">
+			<br>
+			<button onclick="myFunction()">Меню</button>
+			<br>
+			<br>
+			<br>
+			<div id="menu" class="menu">
+			<a href="Nachalo.html" target="_top">Начало</a>
+			<a href="ObshtaInformaciq.html" target="_top">Обща<br> Информация</a>
+			<a href="ObshtaHarakteristika.html" target="_top">Обща <br>Характеристика</a>
+			<a href="Ewoluciq.html" target="_top">Еволюция</a>
+			<a href="Klasifikaciq.html" target="_top">Класификация</a>
+			<a href="Iztochnici.html" target="_top">Източници</a>
+			<a href="SwyrveteSeSNas.html" target="_top">Свържете Се <br>С Нас</a>
+			<a href="../English/Characteristics.html">
+				<img src="../pictures/england.png" alt="England" style="height:15px;width:15px;">
+			</a>
+			</div>
+			<br>
+			<br>
+			<br>
+			<h1 style="text-align:center;">Обща Характеристика</h1>
+			<br>
+			<h3 style="padding-left:25px; padding-right:25px;">Сред всички семейства от разред Carnivora именно котките са типичните хищници – хранят се само с животинско месо. 
+			Повечето са самотни (с изключение на лъва) и предимно нощни ловци, които водят потаен начин на живот и обикновено издебват своята плячка, настигат я бързо и я повалят
+			с един скок, след което търсят гърлото, за да я захапят и задушат.
+			Повечето котки са отлични катерачи, но се срещат както в гори, така и в открити пространства, скалисти планински местности или дори в пустини.</h3>
+			<h3 style="padding-left:25px; padding-right:25px;">Котките са въоръжени с добре развити кучешки зъби (виж Димен леопард), които при изчезналите саблезъби котки достигали наистина впечатляващи размери. 
+			От сетивата им най-добре развити са зрението и слухът. 
+			Очите им са големи, гледащи напред (бинокулярно зрение) и имат рефлекторна мембрана (тапетум) зад ретината, осигуряваща по-добро нощно виждане и това е причината очите им да отразяват светлината в тъмното. 
+			Слухът им също е много добре развит, повечето видове имат големи уши и малките котки особено долавят високочестотни звуци, неуловими за човешкото ухо. 
+			Обонянието им също е добре развито, но не чак до такава степен както при кучетата. За сметка на това притежават добре развит вомероназален орган, разположен при горната устна, с който всъщност вкусват въздуха.
+			Този орган е особено чуствителен към феромоните и това обяснява озъбването на мъжкия лъв например, когато надуши разгонена женска.
+			По муцуната и над очите котките притежават множество осезателни косъмчета (вибриси) – типичните котешки мустаци, които долавят и най-малкото раздвижване във въздуха наоколо – нещо много полезно в нощния мрак.</h3>
+			<h3 style="padding-left:25px; padding-right:25px;">Това, че котките винаги падат на краката си, говори и за много добре развит вестибуларен апарат.</h3>
+			<center>
+				<img src="../pictures/cats26.jpg" alt="Cats" style="height:400px;">
+			</center>
+		</div>
+	</body>
+</html>
+<script>
+	function myFunction() {
+		document.getElementById("menu").classList.toggle("show");
+	}
+</script>
+

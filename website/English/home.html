@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Family Felidae</title>
+	<style>
+		body{background-image: url("../Pictures/cats31.jpg");}
+		a:link, a:visited {
+		  background-color: DarkOrange;
+		  color: white;
+		  padding: 15px 25px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  margin-left:25px;
+		}
+
+		a:hover, a:active {
+		  background-color: red;
+		}
+
+		.box {
+		  border: 2px solid black;
+		  padding-top:0px;
+		  padding-right:0px;
+		  padding-bottom:20px;
+		  padding-left:0px;
+		  background-color: rgba(0, 0, 0, 0.9);
+		  margin-top:-10px;
+		  margin-right:5px;
+		  margin-left:5px;
+		  border-radius: 10px;
+		}
+		
+		h1, h3 {color: white;}
+		
+		.menu{display:none;}
+		
+		.show {display:block;}
+		
+		button {
+		  background-color: DarkOrange;
+		  color: white;
+		  padding: 15px 25px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  margin-left:25px;
+		}
+		
+		
+	</style>
+</head>
+	<body>
+
+		<div class="box">
+			<br>
+			<button onclick="myFunction()">Menu</button>
+			<br>
+			<br>
+			<br>
+			<div id="menu" class="menu">
+			<a href="Home.html" target="_top">Home</a>
+			<a href="GeneralInfo.html" target="_top">General Information</a>
+			<a href="Characteristics.html" target="_top">Characteristics</a>
+			<a href="Evolution.html" target="_top">Evolution</a>
+			<a href="Classification.html" target="_top">Classification</a>
+			<a href="References.html" target="_top">References</a>
+			<a href="Contact_Us.html" target="_top">Contact Us</a>
+			<a href="../Bulgarian/Nachalo.html">
+				<img src="../pictures/Bulgaria.png" alt="Bulgaria" style="height:15px;width:15px;">
+			</a>
+			</div>
+			<br>
+			<br>
+			<br>
+			<h1 style="text-align:center;">Family Felidae</h1>
+			<br>
+			<center>
+				<img src="../pictures/cats.jpg" alt="Cats" style="height:400px;">
+			</center>
+		</div>
+	</body>
+</html>
+<script>
+	function myFunction() {
+		document.getElementById("menu").classList.toggle("show");
+	}
+</script>
+
